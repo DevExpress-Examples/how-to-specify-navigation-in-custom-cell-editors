@@ -9,4 +9,21 @@ This example shows how to use the [DataViewBase.GetActiveEditorNeedsKey](https:/
 
 ![](https://docs.devexpress.com/WPF/images/process-editor-activation-action.gif?v=22.1)
 
-Refer to the [In-place Editors](https://docs.devexpress.com/WPF/6606/controls-and-libraries/data-grid/data-editing-and-validation/modify-cell-values/inplace-editors) topic for more information.
+<!-- default file list -->
+
+## Files to Look At
+
+* [NavigationBehavior.cs](./CS/NavigationBehavior.cs) (VB: [NavigationBehavior.vb](./VB/NavigationBehavior.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+
+<!-- default file list end -->
+
+## Documentation
+
+* [Assign Editors to Cells](https://docs.devexpress.com/WPF/401011/controls-and-libraries/data-grid/data-editing-and-validation/modify-cell-values/assign-an-editor-to-a-cell)
+* [Edit Cell Values in UI](https://docs.devexpress.com/WPF/6606/controls-and-libraries/data-grid/data-editing-and-validation/modify-cell-values/inplace-editors)
+
+## More Examples
+
+* [WPF Data Grid - Use Custom Editors to Edit Cell Values](https://github.com/DevExpress-Examples/how-to-use-custom-editors-to-edit-cell-values-e1596)
+* [WPF Data Grid - Assign a ComboBox Editor to a Column](https://github.com/DevExpress-Examples/wpf-data-grid-assign-combobox-editor-to-column)
