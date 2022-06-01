@@ -8,7 +8,7 @@ Namespace CellTemplate
         Inherits ViewModelBase
 
         Public Sub New()
-            Source = GetPlace()
+            Source = GetPlaces()
         End Sub
 
         Public Property Source As ObservableCollection(Of Place)
@@ -25,7 +25,7 @@ Namespace CellTemplate
 
     Public Module Places
 
-        Public Function GetPlace() As ObservableCollection(Of Place)
+        Public Function GetPlaces() As ObservableCollection(Of Place)
             Dim places As ObservableCollection(Of Place) = New ObservableCollection(Of Place)()
             places.Add(New Place() With {.Country = "USA", .City = "Washington, D.C.", .Cities = New List(Of String) From {"Washington, D.C.", "New York", "Los Angeles", "Las Vegas"}})
             places.Add(New Place() With {.Country = "Germany", .City = "Berlin", .Cities = New List(Of String) From {"Berlin", "Munich", "Frankfurt"}})

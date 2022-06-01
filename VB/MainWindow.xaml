@@ -11,7 +11,7 @@
         <local:ViewModel/>
     </Window.DataContext>
 
-    <dxg:GridControl ItemsSource="{Binding Source}" EnableSmartColumnsGeneration="True">
+    <dxg:GridControl ItemsSource="{Binding Source}">
         <dxg:GridColumn FieldName="Country"/>
         <dxg:GridColumn FieldName="City">
             <dxg:GridColumn.CellTemplate>
