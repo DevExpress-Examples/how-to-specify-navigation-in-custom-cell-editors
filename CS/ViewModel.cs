@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 namespace CellTemplate {
     public class ViewModel : ViewModelBase {
         public ViewModel() {
-            Source = Places.GetPlace();
+            Source = Places.GetPlaces();
         }
         public ObservableCollection<Place> Source { get; set; }
     }
@@ -16,7 +16,7 @@ namespace CellTemplate {
         public List<string> Cities { get; set; }
     }
     public static class Places {
-        public static ObservableCollection<Place> GetPlace() {
+        public static ObservableCollection<Place> GetPlaces() {
             ObservableCollection<Place> places = new ObservableCollection<Place>();
             places.Add(new Place() { Country = "USA", City = "Washington, D.C.", Cities = new List<string> { "Washington, D.C.", "New York", "Los Angeles", "Las Vegas" } });
             places.Add(new Place() { Country = "Germany", City = "Berlin", Cities = new List<string> { "Berlin", "Munich", "Frankfurt" } });
