@@ -8,7 +8,7 @@
 
 This example shows how to use the [DataViewBase.GetActiveEditorNeedsKey](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.GetActiveEditorNeedsKey) and [DataViewBase.ProcessEditorActivationAction](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.ProcessEditorActivationAction) events to implement end-user navigation.
 
-![](https://docs.devexpress.com/WPF/images/process-editor-activation-action.gif?v=22.1)
+![](https://docs.devexpress.com/WPF/images/process-editor-activation-action.gif)
 
 <!-- default file list -->
 
@@ -35,3 +35,4 @@ This example shows how to use the [DataViewBase.GetActiveEditorNeedsKey](https:/
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
