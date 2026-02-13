@@ -10,7 +10,7 @@ This example shows how to use the [DataViewBase.GetActiveEditorNeedsKey](https:/
 
 Refer to the [In-place Editors](https://docs.devexpress.com/WPF/6606/controls-and-libraries/data-grid/data-editing-and-validation/modify-cell-values/inplace-editors) topic for more information.
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-specify-navigation-in-custom-cell-editors&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-specify-navigation-in-custom-cell-editors&~~~was_helpful=no)
 
